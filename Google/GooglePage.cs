@@ -1,5 +1,5 @@
 ﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Chrome;
 
 namespace SeleniumTests.Pages
 {
