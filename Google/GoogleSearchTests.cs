@@ -16,6 +16,7 @@ namespace SeleniumTests
         {
             var options = new ChromeOptions();
             options.AddArgument("--headless=new");
+            options.AddArgument("--user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Mobile Safari/537.36");
             _driver = new ChromeDriver(options);
             _driver.Manage().Window.Maximize();
             _googlePage = new GooglePage(_driver);
