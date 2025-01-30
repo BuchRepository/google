@@ -14,7 +14,9 @@ namespace SeleniumTests
         [SetUp]
         public void SetUp()
         {
-            _driver = new ChromeDriver();
+            var options = new ChromeOptions();
+            options.AddArgument("--headless=new");
+            _driver = new ChromeDriver(options);
             _driver.Manage().Window.Maximize();
             _googlePage = new GooglePage(_driver);
         }
