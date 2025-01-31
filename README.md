@@ -1,1 +1,1 @@
-# google
+Task: Implement automation of the Google homepage search test script using the Page Object Model (POM) and set up a CI/CD pipeline using GitHub Actions to automatically run the test when merging a PullRequest (PR) into the main branch.
